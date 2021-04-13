@@ -60,7 +60,7 @@ const questions = () => {
       type: "list",
       name: "license",
       message: "Which license are you using? (Check all that apply)",
-      choices: ["MIT", "Apache", "Academic", "GNU", "ISC", "Mozilla", "Open"],
+      choices: ["MIT", "Apache-2.0", "BSD 3", "GNU", "Mozilla", "Open"],
     },
     {
       type: "confirm",

@@ -60,6 +60,23 @@ const generateTestsTable = (testsTable) => {
     `;
 };
 
+// function to create link for the licenses
+const licenseLink = (licenseLink) => {
+  if (licenseLink == "MIT") {
+    return `[Click here to learn more about this license](https://opensource.org/licenses/MIT)`;
+  } else if (licenseLink == "Apache-2.0") {
+    return `[Click here to learn more about this license](https://opensource.org/licenses/Apache-2.0)`;
+  } else if (licenseLink == "BSD 3") {
+    return `[Click here to learn more about this license](https://opensource.org/licenses/BSD-3-Clause)`;
+  } else if (licenseLink == "GNU") {
+    return `[Click here to learn more about this license](https://opensource.org/licenses/gpl-license)`;
+  } else if (licenseLink == "Mozilla") {
+    return `[Click here to learn more about this license](https://opensource.org/licenses/MPL-2.0)`;
+  } else if (licenseLink == "Open") {
+    return "";
+  }
+};
+
 module.exports = (templateData) => {
   console.log(templateData);
 
@@ -98,8 +115,9 @@ ${templateData.usage}
 
 ## License
 
-This project is covered under ${templateData.license} license.
+This project is covered under ${templateData.license} license. 
 
+  ${licenseLink(templateData.license)}  
 ${generateContribute(templateData.contribute)}
 ${generateTests(templateData.tests)}
 
