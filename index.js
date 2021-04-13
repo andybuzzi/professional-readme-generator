@@ -139,19 +139,18 @@ const questions = () => {
 };
 
 // // TODO: Create a function to write README file
-questions().then((readmeData) => {
-  const readMe = generatePage(readmeData);
+function init() {
+  questions().then((readmeData) => {
+    const readMe = generatePage(readmeData);
 
-  fs.writeFile("./readme.md", readMe, (err) => {
-    if (err) throw new Error(err);
-    console.log(
-      "Page created! Check out readme.md in this directory to see it!"
-    );
+    fs.writeFile("./readme.md", readMe, (err) => {
+      if (err) throw new Error(err);
+      console.log(
+        "Page created! Check out readme.md in this directory to see it!"
+      );
+    });
   });
-});
-
-// // TODO: Create a function to initialize app
-// function init() {}
+}
 
 // // Function call to initialize app
-// init();
+init();
