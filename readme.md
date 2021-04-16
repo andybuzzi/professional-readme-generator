@@ -42,15 +42,15 @@ Below screenshots of some of the features for reference.
 
 - First step: Enter node index.js to start application;
 
-  ![First Step: Enter node index.js](assets\screenshots\first-step.jpg)
+  ![First Step: Enter node index.js](dist\screenshots\first-step.png)
 
 - Questions will be displayed in the terminal;
 
-  ![ReadMe Questions](assets\screenshots\questions.jpg)
+  ![ReadMe Questions](dist\screenshots\questions.png)
 
 - After answer all the questions a readMe file will be generated containing your answers.
 
-  ![ReadMe Preview](assets\screenshots\readme-preview.jpg)
+  ![ReadMe Preview](dist\screenshots\readme-preview.png)
 
 ## License
 
