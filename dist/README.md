@@ -44,14 +44,14 @@ If you’d like to contribute with any of the projects showcased in this portfol
 
 ## Tests
 
-Some of the projects contain tests for the applications, please check them out through the portfolio work section.;
+Some of the projects may contain tests for the applications, please check them out through the portfolio work section.;
     
 
 ## Questions
 
 Please feel free to contact me if you have any question or need any further information.
 
-* [GitHub Profile](andybuzzi.github.com)
+* [GitHub Profile](Andybuzzi.github.com)
 
 * [Email Address](andybuzzi@gmail.com)
 
