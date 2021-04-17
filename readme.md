@@ -36,7 +36,7 @@ This application has been created using node.js. To run this application please 
 
 ## Usage
 
-As a developers many times part of our jobs is to come up with a good readMe. This application has been made to help developers to uptimize their time and have a professional readMe created in minutes with all the information needed just answering a few questions.
+As a developers many times part of our jobs is to come up with a good readMe. This application has been made to help developers to optimize their time and have a professional readMe created in minutes with all the information needed just answering a few questions.
 
 Below screenshots of some of the features for reference.
 
