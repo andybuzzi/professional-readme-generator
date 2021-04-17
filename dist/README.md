@@ -1,4 +1,4 @@
-# Read Me Example
+# Read Me Sample
 
 # Anderson’s Portfolio
 
